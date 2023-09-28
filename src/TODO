@@ -1,0 +1,20 @@
+
+// TODO for DiceGame
+(): Metod
+
+* initialize Project
+* setup variables
+
+//Setup game ()
+  // inputPlayerName()git
+  // inputAmountofDices()
+
+ //player
+    // int score;
+    // throwDice()
+
+
+ //scoreLogic()
+   // determineWinner()
+   // calculateScore()
+

@@ -7,16 +7,23 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         int[] numbers = {0, 100, 1000};
-        int test;
 
-       /*Scanner scanner = new Scanner(System.in);
-        System.out.println("skriv ngt för att krascha");
-        scanner.nextLine();
-        System.out.println(number/0);*/
+        System.out.println("Before crash");
 
-        for (int i = 0; i < numbers.length; i++);
+       try {
+           //TRY to execute code
+           System.out.println("inside - TRY");
+           System.out.println(2/0);
 
-            System.out.println(test);
+       }
+       catch (Exception error){
+           System.out.println("inside - CATCH");
+
+
+          error.printStackTrace();
+       }
+
+            System.out.println("After crash");
 
 
     }
